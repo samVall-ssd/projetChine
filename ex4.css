@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -35,7 +33,13 @@ nav a {
     margin: 15px;
     font-size: 17px;
 }
-#Ville2{
+
+#Ville2 {
+    width: 1000px;
+    border-radius: 15px;
+}
+
+#Ville {
     width: 1000px;
     border-radius: 15px;
 }
@@ -65,19 +69,13 @@ section p {
 
 
 .presentation {
-    background-color: #1e293b;
-}
-
-
-
-.architecture {
-    background-color: #263449;
+    background-color: #3a371c;
 }
 
 
 
 .lieux {
-    background-color: #1e293b;
+    background-color: #3a371c;
 }
 
 .carte1 {
@@ -105,8 +103,9 @@ section p {
     color: #ff8c42;
 }
 
-a{
+a {
     text-decoration: none;
+    color: #ff8c42;
 }
 
 
@@ -114,8 +113,4 @@ footer {
     background-color: #080d18;
     text-align: center;
     padding: 20px;
-}
-#Ville{
-    width: 1000px;
-    border-radius: 15px;
 }
