@@ -35,6 +35,10 @@ nav a {
     margin: 15px;
     font-size: 17px;
 }
+#Ville2{
+    width: 1000px;
+    border-radius: 15px;
+}
 
 nav a:hover {
     color: #ff8c42;
@@ -76,7 +80,7 @@ section p {
     background-color: #1e293b;
 }
 
-.cartes {
+.carte1 {
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -113,4 +117,5 @@ footer {
 }
 #Ville{
     width: 1000px;
+    border-radius: 15px;
 }
