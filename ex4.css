@@ -105,8 +105,12 @@ a{
     text-decoration: none;
 }
 
+
 footer {
     background-color: #080d18;
     text-align: center;
     padding: 20px;
+}
+#Ville{
+    width: 1000px;
 }
