@@ -1,5 +1,4 @@
 
-/* Paramètres généraux */
 
 body {
     margin: 0;
@@ -8,7 +7,6 @@ body {
     color: white;
 }
 
-/* En-tête */
 
 header {
     background-color: #080d18;
@@ -26,7 +24,6 @@ header p {
     font-size: 20px;
 }
 
-/* Menu */
 
 nav {
     margin-top: 30px;
@@ -41,9 +38,9 @@ nav a {
 
 nav a:hover {
     color: #ff8c42;
+    text-decoration: none;
 }
 
-/* Sections */
 
 section {
     padding: 50px;
@@ -62,19 +59,18 @@ section p {
     margin: 15px auto;
 }
 
-/* Présentation */
 
 .presentation {
     background-color: #1e293b;
 }
 
-/* Architecture */
+
 
 .architecture {
     background-color: #263449;
 }
 
-/* Cartes des lieux */
+
 
 .lieux {
     background-color: #1e293b;
@@ -98,13 +94,16 @@ section p {
 .carte:hover {
     transform: translateY(-8px);
     background-color: #35445c;
+    text-decoration: none;
 }
 
 .carte h3 {
     color: #ff8c42;
 }
 
-/* Pied de page */
+a{
+    text-decoration: none;
+}
 
 footer {
     background-color: #080d18;
