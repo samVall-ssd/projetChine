@@ -1,0 +1,113 @@
+
+/* Paramètres généraux */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111827;
+    color: white;
+}
+
+/* En-tête */
+
+header {
+    background-color: #080d18;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #ff8c42;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Menu */
+
+nav {
+    margin-top: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #ff8c42;
+}
+
+/* Sections */
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section h2 {
+    color: #ff8c42;
+    font-size: 30px;
+}
+
+section p {
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 15px auto;
+}
+
+/* Présentation */
+
+.presentation {
+    background-color: #1e293b;
+}
+
+/* Architecture */
+
+.architecture {
+    background-color: #263449;
+}
+
+/* Cartes des lieux */
+
+.lieux {
+    background-color: #1e293b;
+}
+
+.cartes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.carte {
+    background-color: #080d18;
+    padding: 25px;
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.carte:hover {
+    transform: translateY(-8px);
+    background-color: #35445c;
+}
+
+.carte h3 {
+    color: #ff8c42;
+}
+
+/* Pied de page */
+
+footer {
+    background-color: #080d18;
+    text-align: center;
+    padding: 20px;
+}
