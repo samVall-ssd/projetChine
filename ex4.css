@@ -1,13 +1,13 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #111827;
+    background-color: #20180c;
     color: white;
 }
 
 
 header {
-    background-color: #080d18;
+    background-color: #20120c ;
     text-align: center;
     padding: 40px;
 }
@@ -15,7 +15,7 @@ header {
 header h1 {
     font-size: 50px;
     letter-spacing: 5px;
-    color: #ff8c42;
+    color: #fffec4;
 }
 
 header p {
@@ -34,14 +34,10 @@ nav a {
     font-size: 17px;
 }
 
-#Ville2 {
+.Ville {
     width: 1000px;
     border-radius: 15px;
-}
-
-#Ville {
-    width: 1000px;
-    border-radius: 15px;
+    border: solid black 3px;
 }
 
 nav a:hover {
@@ -56,7 +52,7 @@ section {
 }
 
 section h2 {
-    color: #ff8c42;
+    color: #fffec4;
     font-size: 30px;
 }
 
@@ -69,13 +65,13 @@ section p {
 
 
 .presentation {
-    background-color: #2e2d1e;
+    background-color: #20120c;
 }
 
 
 
 .lieux {
-    background-color: #2e2d1e;
+    background-color: #20120c;
 }
 
 .carte1 {
@@ -86,7 +82,7 @@ section p {
 }
 
 .carte {
-    background-color: #100e2e;
+    background-color: #58391b;
     padding: 25px;
     width: 250px;
     border-radius: 10px;
@@ -95,22 +91,22 @@ section p {
 
 .carte:hover {
     transform: translateY(-8px);
-    background-color: #35445c;
+    background-color: #5c5935;
     text-decoration: none;
 }
 
 .carte h3 {
-    color: #ff8c42;
+    color: #fffec4;
 }
 
 a {
     text-decoration: none;
-    color: #ff8c42;
+    color: #fffec4;
 }
 
 
 footer {
-    background-color: #080d18;
+    background-color: #201e0c;
     text-align: center;
     padding: 20px;
 }
